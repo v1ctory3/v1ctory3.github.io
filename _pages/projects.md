@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Research on cybersecurity.
+description: "Research on cybersecurity."
 nav: true
 nav_order: 2
 display_categories: [work, fun]
