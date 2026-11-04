@@ -6,6 +6,6 @@ nav: true
 nav_order: 3
 cv_pdf: ""
 cv_format: rendercv # options: rendercv, jsonresume
-description: Education, research experience, and academic activities.
+description: "Education, research experience, and academic activities."
   sidebar: left
 ---
