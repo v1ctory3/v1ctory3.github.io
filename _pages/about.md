@@ -6,7 +6,7 @@ subtitle: "Ph.D. Student · Computer and Information Security · Sejong Universi
 
 profile:
   align: right
-  image:
+  image: profile.jpg
   image_circular: false
   more_info:
 
