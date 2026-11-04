@@ -4,167 +4,198 @@ cv:
   email: seungchan@pel.sejong.ac.kr
   location: Seoul, Republic of Korea
   image: ""
-  summary: >
-    Ph.D. student in Computer and Information Security at Sejong
-    University and researcher at the Protocol Engineering Lab,
-    advised by Prof. Jong-Hyouk Lee. Research interests include
-    5G-Advanced and 6G network security, Open RAN and UxNB security,
-    decentralized trust, and drone and Counter-UAS standardization.
-
+  summary:
+    Ph.D. student in Computer and Information Security at Sejong University and researcher at the
+    Protocol Engineering Lab, advised by Prof. Jong-Hyouk Lee. Research focuses on security and trust
+    in 5G-Advanced/6G networks, Open RAN and UxNB services, distributed ledger-based trust models, and
+    drone and Counter-UAS standardization.
   social_networks:
     - network: GitHub
       username: v1ctory3
     - network: LinkedIn
       username: seungchan-woo
-
   sections:
     Education:
       - institution: Sejong University
         location: Seoul, Republic of Korea
         area: Computer and Information Security
         studyType: Ph.D. studies
-        start_date: "2025-09"
+        start_date: 2025-09
         end_date: present
         highlights:
           - "Supervisor: Prof. Jong-Hyouk Lee."
           - "Additional field of study: Convergence Engineering for Intelligent Drone."
-
       - institution: Sejong University
         location: Seoul, Republic of Korea
         area: Computer and Information Security
         studyType: M.S.
-        end_date: "2025-08"
+        end_date: 2025-08
         highlights:
           - "Supervisor: Prof. Jong-Hyouk Lee."
           - "Additional field of study: Convergence Engineering for Metaverse."
           - "GPA: 4.50 / 4.50."
-
       - institution: Sejong University
         location: Seoul, Republic of Korea
         area: Computer and Information Security
         studyType: B.S.
-        end_date: "2023-08"
-
+        end_date: 2023-08
     Experience:
       - company: Protocol Engineering Lab, Sejong University
         position: Researcher
         location: Seoul, Republic of Korea
-        start_date: "2021-07"
+        start_date: 2021-07
         end_date: present
         highlights:
-          - >
-            Conduct research on cybersecurity, privacy protection,
-            blockchain/DLT, 6G network security, Open RAN security,
-            and drone security.
-          - >
-            Participate in national R&D projects and domestic and
-            international cybersecurity standardization activities.
-          - >
-            Develop and evaluate security concepts, testbeds, and
-            interoperability requirements for emerging ICT systems.
-
+          - Conduct research on cybersecurity, privacy protection, blockchain/DLT, 6G network security,
+            Open RAN security, and drone security.
+          - Participate in national R&D projects and domestic and international standardization activities
+            related to Counter-UAS interoperability and cybersecurity.
+          - Publish and present research on Counter-UAS systems, UxNB security, software copyright protection,
+            and 5G-Advanced/6G security.
+      - company: ISO/TC 20/SC 16/WG 10 — Cybersecurity
+        position: Working Group Member
+        start_date: 2026-07
+        end_date: present
+        highlights:
+          - Participate in international standardization activities on cybersecurity for uncrewed aircraft
+            systems.
+          - Participated online in the WG 10 meeting during the 21st ISO/TC 20/SC 16 plenary in Brussels,
+            Belgium, in July 2026.
       - company: ISO/TC 20/SC 16/WG 8 — Counter UAS
         position: Working Group Member
-        start_date: "2026-06"
+        start_date: 2026-06
         end_date: present
         highlights:
-          - >
-            Contribute to ISO 25461 on functional requirements for
-            Counter-UAS detection, tracking, and identification.
-          - >
-            Contribute to a proposed international standard on data
-            exchange interfaces for Counter-UAS detection, tracking,
-            and identification.
-
+          - Contribute to ISO 25461 on functional requirements for Counter-UAS detection, tracking, and
+            identification.
+          - Contribute to a proposed international standard on data exchange interfaces for Counter-UAS
+            detection, tracking, and identification.
       - company: TTA/TC 4/PG 428 — Drone System
         position: Committee Member
-        start_date: "2025-02"
+        start_date: 2025-02
         end_date: present
         highlights:
-          - >
-            Contribute to domestic standardization activities for
-            anti-drone systems.
-          - >
-            Contribute to interface and data specification standards
-            supporting anti-drone system interoperability.
-
+          - Contribute to domestic standardization activities for anti-drone systems.
+          - Contribute to interface and data specification standards supporting anti-drone system interoperability.
+      - company: Ruhr University Bochum
+        position: Visiting Researcher
+        location: Bochum, Germany
+        start_date: 2025-12
+        end_date: 2026-05
+        highlights:
+          - "Host: Prof. Tarik Taleb. Six-month research visit."
+          - Conducted research on distributed ledger-based trust models for UxNB services in 6G Open RAN
+            environments.
+          - Analyzed Open RAN security threats and investigated trust architectures and attack scenarios
+            for UxNB deployment.
+          - Collaborated with the host team on cybersecurity, privacy protection, and trust management
+            for next-generation networks.
+      - company: University of Oulu
+        position: Visiting Researcher
+        location: Oulu, Finland
+        start_date: "2023-09-01"
+        end_date: "2023-09-30"
+        highlights:
+          - Conducted attack experiments on the university's Open Source 5GTN testbed as part of Korea–Finland
+            joint research on security datasets.
+          - Collaborated through weekly meetings with Prof. Mika Ylianttila's research group and the 5GTN
+            team on attack experiments and data collection.
+          - Presented the attacks performed on Open Source 5GTN and data collection methods at the joint
+            research meeting on September 22, 2023.
+          - Participated in a 6G research workshop with VTT and ETRI.
     Projects:
       - name: Cybersecurity Standards for AI-Based Drones
-        start_date: "2026-04"
+        start_date: 2026-04
         end_date: present
-        summary: >
-          Research on cybersecurity requirements and international
-          standardization strategies for the secure operation of
-          AI-based drones.
+        summary:
+          Research on cybersecurity requirements and international standardization strategies for
+          the secure operation of AI-based drones.
         highlights:
-          - >
-            Analyze cybersecurity threats, operational risks, and
-            security requirements in intelligent and autonomous
-            drone environments.
-
+          - Analyze cybersecurity threats, operational risks, and security requirements in intelligent
+            and autonomous drone environments.
       - name: International Standards for Counter-UAS Interoperability
-        start_date: "2025-07"
+        start_date: 2025-07
         end_date: present
-        summary: >
-          Research on interoperability requirements, architectures,
-          data exchange interfaces, and information elements for
-          Counter-UAS systems.
+        summary:
+          Research on interoperability requirements, architectures, data exchange interfaces, and
+          information elements for Counter-UAS systems.
         highlights:
-          - >
-            Support domestic and international standardization
-            for interoperable Counter-UAS components.
-
+          - Support domestic and international standardization for interoperable Counter-UAS components.
       - name: Copyright Protection for On-Device AI Models
-        start_date: "2025-04"
+        start_date: 2025-04
         end_date: present
-        summary: >
-          Research on copyright protection and management technologies
-          for on-device AI models, including ownership, licensing,
-          and distribution requirements.
-
+        summary:
+          Research on copyright protection and management technologies for on-device AI models,
+          including ownership, licensing, and distribution requirements.
       - name: Trust Models and Intelligent Breach Response in 6G Open Networks
-        start_date: "2024-07"
+        start_date: 2024-07
         end_date: present
-        summary: >
-          Research on trust models, security mechanisms, and intelligent
-          breach response in 6G open network environments.
+        summary:
+          Research on trust models, security mechanisms, and intelligent breach response in 6G
+          open network environments.
         highlights:
-          - >
-            Analyze security threats and attack models in Open RAN
-            and 6G network architectures.
-
+          - Analyze security threats and attack models in Open RAN and 6G network architectures.
       - name: Anti-Drone Standards Conformance Testing
-        start_date: "2025-04"
-        end_date: "2025-10"
-        summary: >
-          Research on conformance testing frameworks, test procedures,
-          and verification approaches for anti-drone interoperability.
-
+        start_date: 2025-04
+        end_date: 2025-10
+        summary:
+          Research on conformance testing frameworks, test procedures, and verification approaches
+          for anti-drone interoperability.
+      - name: Anti-Drone Interoperability Requirements and Data Specifications
+        start_date: 2024-04
+        end_date: 2024-10
+        summary:
+          Analyzed anti-drone architectures, interface requirements, and information exchange models
+          to support domestic standards for system interoperability.
+      - name: 6G Infrastructure Attack Traffic and Security Datasets
+        start_date: 2023-08
+        end_date: 2023-11
+        summary:
+          Contributed to attack traffic collection, attack scenario analysis, and security dataset
+          development through international collaboration.
+      - name: Security Standardization Strategies for Drone and Anti-Drone Systems
+        start_date: 2023-04
+        end_date: 2023-10
+        summary:
+          Analyzed domestic and international security standardization trends and cybersecurity
+          requirements for drone and anti-drone systems.
+      - name: Edge-Based Virtualization Security in 6G
+        start_date: 2023-01
+        end_date: 2023-12
+        summary:
+          Investigated security threats and requirements for edge-based virtualization, Open RAN
+          attack models, and international standardization strategies.
+      - name: Software Copyright Protection, Licensing, and Distribution
+        start_date: 2022-04
+        end_date: 2023-11
+        summary:
+          Researched blockchain-based software copyright transactions, decentralized identifiers,
+          and license management.
+      - name: 6G Autonomous Security by Design
+        start_date: 2021-07
+        end_date: 2024-12
+        summary:
+          Researched autonomous security and security-by-design for 6G, including network virtualization,
+          container networking, attack traffic collection, and security dataset development.
     Awards:
       - title: Best Paper Award
         date: "2023"
         awarder: Korea Institute of Information Security & Cryptology
-
       - title: Chairman's Award
         date: "2023"
         awarder: Side Channel Information Analysis Research Group
-
     Interests:
       - name: Wireless and Network Security
         icon: fa-solid fa-network-wired
-        keywords: "5G-Advanced, 6G, Open RAN, UxNB, Security-by-design"
-
+        keywords: 5G-Advanced, 6G, Open RAN, UxNB, Security-by-design
       - name: Drone and Counter-UAS Systems
         icon: fa-solid fa-shield-halved
-        keywords: "Drone cybersecurity, Interoperability, Standardization, Conformance testing"
-
+        keywords: Drone cybersecurity, Interoperability, Standardization, Conformance testing
       - name: Decentralized Trust and Privacy
         icon: fa-solid fa-fingerprint
-        keywords: "Blockchain, DLT, Decentralized identifiers, Privacy, Copyright protection"
-
+        keywords: Blockchain, DLT, Decentralized identifiers, Privacy, Copyright protection
     Languages:
       - name: Korean
         summary: Native
-
       - name: English
         summary: Intermediate
