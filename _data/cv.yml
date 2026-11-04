@@ -29,16 +29,19 @@ cv:
         location: Seoul, Republic of Korea
         area: Computer and Information Security
         studyType: M.S.
-        end_date: 2025-08
         highlights:
+          - "Graduated: August 2025."
           - "Supervisor: Prof. Jong-Hyouk Lee."
           - "Additional field of study: Convergence Engineering for Metaverse."
           - "GPA: 4.50 / 4.50."
+        date: 2025-08
       - institution: Sejong University
         location: Seoul, Republic of Korea
         area: Computer and Information Security
         studyType: B.S.
-        end_date: 2023-08
+        date: 2023-08
+        highlights:
+          - "Graduated: August 2023."
     Experience:
       - company: Protocol Engineering Lab, Sejong University
         position: Researcher
@@ -52,6 +55,7 @@ cv:
             related to Counter-UAS interoperability and cybersecurity.
           - Publish and present research on Counter-UAS systems, UxNB security, software copyright protection,
             and 5G-Advanced/6G security.
+        summary: Jul 2021 – Present
       - company: ISO/TC 20/SC 16/WG 10 — Cybersecurity
         position: Working Group Member
         start_date: 2026-07
@@ -61,6 +65,7 @@ cv:
             systems.
           - Participated online in the WG 10 meeting during the 21st ISO/TC 20/SC 16 plenary in Brussels,
             Belgium, in July 2026.
+        summary: Jul 2026 – Present
       - company: ISO/TC 20/SC 16/WG 8 — Counter UAS
         position: Working Group Member
         start_date: 2026-06
@@ -70,6 +75,7 @@ cv:
             identification.
           - Contribute to a proposed international standard on data exchange interfaces for Counter-UAS
             detection, tracking, and identification.
+        summary: Jun 2026 – Present
       - company: TTA/TC 4/PG 428 — Drone System
         position: Committee Member
         start_date: 2025-02
@@ -77,6 +83,7 @@ cv:
         highlights:
           - Contribute to domestic standardization activities for anti-drone systems.
           - Contribute to interface and data specification standards supporting anti-drone system interoperability.
+        summary: Feb 2025 – Present
       - company: Ruhr University Bochum
         position: Visiting Researcher
         location: Bochum, Germany
@@ -90,6 +97,7 @@ cv:
             for UxNB deployment.
           - Collaborated with the host team on cybersecurity, privacy protection, and trust management
             for next-generation networks.
+        summary: Dec 2025 – May 2026
       - company: University of Oulu
         position: Visiting Researcher
         location: Oulu, Finland
@@ -103,80 +111,89 @@ cv:
           - Presented the attacks performed on Open Source 5GTN and data collection methods at the joint
             research meeting on September 22, 2023.
           - Participated in a 6G research workshop with VTT and ETRI.
+        summary: September 1–30, 2023
     Projects:
       - name: Cybersecurity Standards for AI-Based Drones
         start_date: 2026-04
         end_date: present
-        summary:
-          Research on cybersecurity requirements and international standardization strategies for
-          the secure operation of AI-based drones.
         highlights:
+          - "Period: Apr 2026 – Present."
+          - Research on cybersecurity requirements and international standardization strategies for the
+            secure operation of AI-based drones.
           - Analyze cybersecurity threats, operational risks, and security requirements in intelligent
             and autonomous drone environments.
       - name: International Standards for Counter-UAS Interoperability
         start_date: 2025-07
         end_date: present
-        summary:
-          Research on interoperability requirements, architectures, data exchange interfaces, and
-          information elements for Counter-UAS systems.
         highlights:
+          - "Period: Jul 2025 – Present."
+          - Research on interoperability requirements, architectures, data exchange interfaces, and information
+            elements for Counter-UAS systems.
           - Support domestic and international standardization for interoperable Counter-UAS components.
       - name: Copyright Protection for On-Device AI Models
         start_date: 2025-04
         end_date: present
-        summary:
-          Research on copyright protection and management technologies for on-device AI models,
-          including ownership, licensing, and distribution requirements.
+        highlights:
+          - "Period: Apr 2025 – Present."
+          - Research on copyright protection and management technologies for on-device AI models, including
+            ownership, licensing, and distribution requirements.
       - name: Trust Models and Intelligent Breach Response in 6G Open Networks
         start_date: 2024-07
         end_date: present
-        summary:
-          Research on trust models, security mechanisms, and intelligent breach response in 6G
-          open network environments.
         highlights:
+          - "Period: Jul 2024 – Present."
+          - Research on trust models, security mechanisms, and intelligent breach response in 6G open
+            network environments.
           - Analyze security threats and attack models in Open RAN and 6G network architectures.
       - name: Anti-Drone Standards Conformance Testing
         start_date: 2025-04
         end_date: 2025-10
-        summary:
-          Research on conformance testing frameworks, test procedures, and verification approaches
-          for anti-drone interoperability.
+        highlights:
+          - "Period: Apr 2025 – Oct 2025."
+          - Research on conformance testing frameworks, test procedures, and verification approaches for
+            anti-drone interoperability.
       - name: Anti-Drone Interoperability Requirements and Data Specifications
         start_date: 2024-04
         end_date: 2024-10
-        summary:
-          Analyzed anti-drone architectures, interface requirements, and information exchange models
-          to support domestic standards for system interoperability.
+        highlights:
+          - "Period: Apr 2024 – Oct 2024."
+          - Analyzed anti-drone architectures, interface requirements, and information exchange models
+            to support domestic standards for system interoperability.
       - name: 6G Infrastructure Attack Traffic and Security Datasets
         start_date: 2023-08
         end_date: 2023-11
-        summary:
-          Contributed to attack traffic collection, attack scenario analysis, and security dataset
-          development through international collaboration.
+        highlights:
+          - "Period: Aug 2023 – Nov 2023."
+          - Contributed to attack traffic collection, attack scenario analysis, and security dataset development
+            through international collaboration.
       - name: Security Standardization Strategies for Drone and Anti-Drone Systems
         start_date: 2023-04
         end_date: 2023-10
-        summary:
-          Analyzed domestic and international security standardization trends and cybersecurity
-          requirements for drone and anti-drone systems.
+        highlights:
+          - "Period: Apr 2023 – Oct 2023."
+          - Analyzed domestic and international security standardization trends and cybersecurity requirements
+            for drone and anti-drone systems.
       - name: Edge-Based Virtualization Security in 6G
         start_date: 2023-01
         end_date: 2023-12
-        summary:
-          Investigated security threats and requirements for edge-based virtualization, Open RAN
-          attack models, and international standardization strategies.
+        highlights:
+          - "Period: Jan 2023 – Dec 2023."
+          - Investigated security threats and requirements for edge-based virtualization, Open RAN attack
+            models, and international standardization strategies.
       - name: Software Copyright Protection, Licensing, and Distribution
         start_date: 2022-04
         end_date: 2023-11
-        summary:
-          Researched blockchain-based software copyright transactions, decentralized identifiers,
-          and license management.
+        highlights:
+          - "Period: Apr 2022 – Nov 2023."
+          - Researched blockchain-based software copyright transactions, decentralized identifiers, and
+            license management.
       - name: 6G Autonomous Security by Design
         start_date: 2021-07
         end_date: 2024-12
-        summary:
-          Researched autonomous security and security-by-design for 6G, including network virtualization,
-          container networking, attack traffic collection, and security dataset development.
+        highlights:
+          - "Period: Jul 2021 – Dec 2024."
+          - Researched autonomous security and security-by-design for 6G, including network virtualization,
+            container networking, attack traffic collection, and security dataset development.
     Awards:
       - title: Best Paper Award
         date: "2023"
@@ -199,3 +216,7 @@ cv:
         summary: Native
       - name: English
         summary: Intermediate
+  address:
+    city: Seoul
+    region: Republic of Korea
+  website: https://v1ctory3.github.io/

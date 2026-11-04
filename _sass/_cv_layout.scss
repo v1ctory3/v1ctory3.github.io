@@ -1,0 +1,89 @@
+// Scoped to the CV: consistent date columns, indentation, and mobile wrapping.
+.cv {
+  .card > .list-group,
+  .card > div > .list-group {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .list-group-item {
+    list-style: none;
+    padding: 1rem 0;
+    background: transparent;
+  }
+
+  .list-group-item > .row {
+    display: grid;
+    grid-template-columns: 8rem minmax(0, 1fr);
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .list-group-item > .row > div {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    padding: 0;
+    margin-top: 0 !important;
+  }
+
+  .list-group-item h6 {
+    margin-left: 0 !important;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .items {
+    margin: 0.5rem 0 0;
+    padding-left: 1.25rem;
+    list-style: disc;
+  }
+
+  .items > li {
+    margin-bottom: 0.4rem;
+    line-height: 1.6;
+  }
+
+  .date-column,
+  .list-group-item > .row > div:first-child {
+    text-align: left !important;
+  }
+
+  .table-cv {
+    max-width: 100%;
+  }
+
+  .location {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+    margin: 0.5rem 0 0;
+  }
+
+  .badge {
+    max-width: 100%;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .card-title,
+  .table-cv td,
+  .interest-item,
+  .language-item {
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 640px) {
+    .list-group-item > .row {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.65rem;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+    }
+  }
+}
