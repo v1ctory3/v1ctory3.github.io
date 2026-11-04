@@ -2,33 +2,54 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Ph.D. Student · Computer and Information Security · Sejong University"
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image:
+  image_circular: false
+  more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div class="terminal-label" markdown="0"><code>$ whoami</code></div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Ph.D. student in Computer and Information Security at Sejong University, advised by Prof. Jong-Hyouk Lee. I have been a researcher at the [Protocol Engineering Lab (PEL)](https://pel.sejong.ac.kr/wordpress/) since July 2021.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on cybersecurity and trustworthy networked systems, particularly 5G-Advanced and 6G networks, Open RAN, and UAV-mounted base stations (UxNBs). My interests also include blockchain and distributed ledger technologies, decentralized identity, and privacy protection.
+
+Alongside my research, I contribute to domestic and international standardization for drone and Counter-UAS systems. My work addresses interoperability, functional requirements, data exchange interfaces, and conformance testing, connecting security research with practical system requirements.
+
+[Google Scholar](https://scholar.google.co.kr/citations?user=Yul10xcAAAAJ&hl=ko) · [LinkedIn](https://www.linkedin.com/in/seungchan-woo/) · [GitHub](https://github.com/v1ctory3) · [Research Lab](https://pel.sejong.ac.kr/wordpress/) · [Email](mailto:seungchan@pel.sejong.ac.kr)
+
+## Research interests
+
+- **Wireless and network security:** 5G-Advanced/6G, Open RAN, UxNBs, and security-by-design.
+- **Drone and Counter-UAS systems:** Drone cybersecurity, interoperability, data exchange interfaces, and conformance testing.
+- **Decentralized trust and privacy:** Blockchain/DLT, decentralized identifiers, and copyright protection.
+- **Cybersecurity standardization:** Security requirements and domestic and international standards for emerging ICT systems.
+
+## Standardization activities
+
+- **TTA/TC 4/PG 428 — Drone System**, committee member, February 2025–present. Contributions to domestic anti-drone system standards, including interfaces and data specifications.
+- **ISO/TC 20/SC 16/WG 8 — Counter UAS**, working group member, June 2026–present. Contributions to ISO 25461 on functional requirements for detection, tracking, and identification, and a proposed standard on the corresponding data exchange interfaces.
+
+## Education
+
+**Sejong University, Seoul, Republic of Korea**
+
+- **Ph.D. studies**, September 2025–present: Computer and Information Security; Convergence Engineering for Intelligent Drone.
+- **M.S.**, August 2025: Computer and Information Security; Convergence Engineering for Metaverse.
+- **B.S.**, August 2023: Computer and Information Security.
