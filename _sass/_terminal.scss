@@ -1,0 +1,120 @@
+/* Light mode */
+:root {
+  --global-theme-color: #087f70;
+  --global-hover-color: #066657;
+  --terminal-border: #d5e2df;
+  --terminal-panel: #f0f7f5;
+  --terminal-font: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+/* Dark mode */
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --global-bg-color: #0d1117;
+  --global-text-color: #e6edf3;
+  --global-text-color-light: #9ba9b8;
+  --global-theme-color: #64ffda;
+  --global-hover-color: #9affea;
+  --global-card-bg-color: #161b22;
+  --global-code-bg-color: #161b22;
+  --global-divider-color: #30363d;
+
+  --terminal-border: #30363d;
+  --terminal-panel: #161b22;
+}
+
+/* Readable body text */
+body {
+  line-height: 1.75;
+}
+
+/* Terminal typography */
+h1,
+h2,
+h3,
+.navbar-brand,
+.navbar .nav-link,
+.terminal-label {
+  font-family: var(--terminal-font);
+}
+
+.post-title {
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.post-description {
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+}
+
+/* Section headings */
+.post h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--terminal-border);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.post h2::before {
+  content: "~/ ";
+  color: var(--global-theme-color);
+}
+
+/* Introduction prompt */
+.terminal-label {
+  margin: 1.5rem 0 1.25rem;
+}
+
+.terminal-label code {
+  display: inline-block;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--terminal-border);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 6px;
+  background: var(--terminal-panel);
+  color: var(--global-theme-color);
+  font-family: var(--terminal-font);
+  font-size: 0.9rem;
+}
+
+/* Profile image */
+.profile img {
+  border: 1px solid var(--terminal-border);
+  border-radius: 12px;
+  box-shadow: none !important;
+}
+
+/* Navigation and keyboard focus */
+#navbar {
+  border-bottom: 1px solid var(--terminal-border);
+  box-shadow: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
+/* Mobile spacing */
+@media (max-width: 575.98px) {
+  .post-title {
+    font-size: 2rem;
+    overflow-wrap: anywhere;
+  }
+
+  .post h2 {
+    margin-top: 1.75rem;
+    font-size: 1.1rem;
+  }
+
+  .profile {
+    max-width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
