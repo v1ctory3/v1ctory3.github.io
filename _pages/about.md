@@ -50,7 +50,6 @@ Alongside my research, I contribute to domestic and international standardizatio
 
 - **TTA/TC 4/PG 428 — Drone System**, committee member, February 2025–present. Contributions to domestic anti-drone system standards, including interfaces and data specifications.
 - **ISO/TC 20/SC 16/WG 8 — Counter UAS**, working group member, June 2026–present. Contributions to ISO 25461 on functional requirements for detection, tracking, and identification, and a proposed standard on the corresponding data exchange interfaces.
-
 - **ISO/TC 20/SC 16/WG 10 — Cybersecurity**, working group member, July 2026–present. Participation in international standardization activities on cybersecurity for uncrewed aircraft systems.
 
 ## Education
