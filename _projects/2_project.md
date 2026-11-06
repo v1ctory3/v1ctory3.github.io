@@ -1,81 +1,32 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: "Open RAN Security & Trust"
+description: "Ongoing · Distributed-ledger-based trust and traceability for UxNB services and Open RAN applications."
 importance: 2
-category: work
-giscus_comments: true
+category: research
+research: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Status: Ongoing**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Open RAN enables programmable network control through components and applications supplied by different parties. This flexibility raises questions about how to establish service trust, trace application behavior, and understand the effects of compromised or conflicting control decisions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+My ongoing research explores distributed-ledger-based trust mechanisms for UxNB services and the traceability of interactions among Open RAN applications. The aim is to connect observable behavior with evidence that can support security analysis and accountability.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Current research
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **UxNB service trust:** exploring how distributed ledgers can support verifiable service and security histories.
+- **Application security:** examining threats involving xApps, rApps, and the interfaces used for network control.
+- **Behavior tracing:** investigating DAG-ledger-based recording of multi-agent xApp interactions and analysis of their effects on network operation.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+These topics are under investigation; validated results will be added as they become available.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Related foundations
 
-{% raw %}
+My earlier work on decentralized identifiers and software provenance provides a foundation for studying verifiable identities and accountable interactions.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- [Decentralized Identifier System for Software Copyright Transfer and License Management](https://doi.org/10.1109/MetaCom57706.2023.00129), MetaCom, 2023.
+- [Copyright and License Agreement History Management Framework for Outsourced Software](https://doi.org/10.1109/MetaCom57706.2023.00128), MetaCom, 2023.
 
-{% endraw %}
+[All research areas]({{ '/projects/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }})

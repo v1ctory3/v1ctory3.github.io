@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+title: "Counter-UAS Standardization"
+description: "Ongoing · Functional requirements, data exchange interfaces, and conformance testing for interoperable systems."
 importance: 3
-category: work
+category: research
+research: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Status: Ongoing**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Counter-UAS systems combine sensing, tracking, identification, and command functions across components from different vendors. Interoperability depends on clearly defined responsibilities, consistent information models, and testable interfaces.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+My work focuses on functional requirements and data exchange for detection, tracking, and identification. I also investigate how these specifications can support conformance testing and contribute to related standardization activities within ISO/TC 20/SC 16.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Current research
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Functional requirements:** refining requirements and information relationships across detection, tracking, and identification components.
+- **Data exchange:** defining information elements, message structures, and interactions between system components.
+- **Conformance testing:** investigating test cases and verification criteria for interface implementations.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Ongoing standardization
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **ISO/CD 25461** — *Uncrewed aircraft systems — Counter UAS — Functional requirements for detection, tracking, and identification*. WG 8 · Ongoing.
+- **ISO/NP 27093** — *Uncrewed aircraft systems — Counter UAS — Data exchange interfaces for detection, tracking, and identification*. WG 8 · Ongoing.
+- **ISO/AWI 26390** — *Cybersecurity requirements for uncrewed aircraft systems*. WG 10 · Ongoing. This related work addresses UAS cybersecurity more broadly.
 
-{% raw %}
+[Standardization activities]({{ '/publications/' | relative_url }}) · [PEL standardization projects](https://pel.sejong.ac.kr/wordpress/?page_id=3517)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Related work
 
-{% endraw %}
+- [안티드론 시스템 상호운용을 위한 인터페이스 및 데이터 규격 표준화 연구]({{ '/assets/pdf/papers/2025-sscs-counter-uas-interfaces.pdf' | relative_url }}), 2025. Conference abstract.
+- [안티드론 시스템 프레임워크 (제1부~제5부)]({{ '/assets/pdf/papers/2025-tta-antidrone-framework.pdf' | relative_url }}), TTA Journal, no. 222, pp. 46–51, 2025.
+
+[All research areas]({{ '/projects/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }})
